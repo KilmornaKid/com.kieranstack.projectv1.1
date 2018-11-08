@@ -7,13 +7,14 @@ public class CustomerDriver {
         newCustomer.setRegistrationNumber("12345678");
         newCustomer.setLoginPassword("ebf3265");
 
-        new GUI(){};
-
-
-
-
-
-
+        GUI loginGUI = new GUI();
+        loginGUI.setVisible(true);
 
     }
+
+
+
+
+
+
 }
